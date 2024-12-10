@@ -1,0 +1,364 @@
+
+/*Medium Desktop Device*/
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .col-ml-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-ml-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-ml-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-ml-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    #coin_distribution-wrapper {
+        margin-top: -68px;
+    }
+    .cripto-live ul li .icon {
+        height: 23px;
+        width: 23px;
+        margin-right: 3px;
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .cripto-live ul li {
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+    .exhcange-rate {
+        padding: 48px 38px;
+    }
+    .exchange-btn button {
+        margin-top: 37px;
+    }
+    .single-report h2 {
+        font-size: 19px;
+    }
+    .s-report-title {
+        margin-bottom: 17px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .s-report-inner {
+        padding-left: 73px;
+    }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 1200px) and (max-width: 1364px) {
+
+    /* sidebar */
+    .sidebar-menu {
+        position: fixed;
+        left: -90%;
+        top: 0;
+        height: 100vh;
+        width: 365px;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .sbar_collapsed .sidebar-menu {
+        width: 365px;
+        left: 0;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    .sbar_collapsed .nav-btn {
+        margin-right: 15px;
+        position: fixed;
+        z-index: 99;
+        left: 364px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #fffbfb;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* dashboard one */
+    .mt-md-30 {
+        margin-top: 30px;
+    }
+    /* sidebar */
+    .sidebar-menu {
+        position: fixed;
+        left: -90%;
+        top: 0;
+        height: 100vh;
+        width: 365px;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .sbar_collapsed .sidebar-menu {
+        width: 306px;
+        left: 0;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    .sbar_collapsed .nav-btn {
+        margin-right: 15px;
+        position: fixed;
+        z-index: 99;
+        left: 306px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #fffbfb;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+}
+    
+/* Normal desktop :991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* dashboard one */
+    /* sidebar */
+    .sidebar-menu {
+        position: fixed;
+        left: -90%;
+        top: 0;
+        height: 100vh;
+        width: 306px;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .sbar_collapsed .sidebar-menu {
+        width: 306px;
+        left: 0;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    .sbar_collapsed .nav-btn {
+        margin-right: 15px;
+        position: fixed;
+        z-index: 99;
+        left: 306px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #fffbfb;
+    }
+    .sbar_collapsed .metismenu li a span,
+    .sbar_collapsed .metismenu li a:after,
+    .sbar_collapsed .metismenu .collapse.in {
+        display: inline-block;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+    /* main content */
+    .search-box input {
+        width: 278px;
+    }
+   
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .ptb--100 {
+        padding: 90px 0;
+    }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* dashboard one */
+    .mb-xs-30 {
+        margin-bottom: 30px;
+    }
+    .mt-sm-30 {
+        margin-top: 30px;
+    }
+    .mb-sm-40 {
+        margin-bottom: 40px;
+    }
+    /* sidebar */
+    .sidebar-menu {
+        position: fixed;
+        left: -90%;
+        top: 0;
+        height: 100vh;
+        width: 365px;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .sbar_collapsed .sidebar-menu {
+        width: 365px;
+        left: 0;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    .sbar_collapsed .nav-btn {
+        margin-right: 15px;
+        position: fixed;
+        z-index: 99;
+        left: 364px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #fffbfb;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 35px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+    /* main content */
+    .search-box input {
+        width: 278px;
+    }
+    .notification-area li {
+        margin-left: 21px;
+    }
+    .page-title {
+        font-size: 21px;
+    }
+    #coin_distribution-wrapper {
+        margin-top: -74px;
+    }
+    .coin-distribution {
+        margin-top: 30px;
+    }
+    .trd-history-tabs ul li a {
+        margin: 0 8px;
+    }
+    table.dbkit-table tr {
+        height: 64px;
+    }
+    .lts-thumb {
+        margin-bottom: 15px;
+    }
+    .lts-content h2 a {
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .lts-content span {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 6px;
+    }
+    .input-form input {
+        height: 70px;
+        padding-left: 20px;
+    }
+    .exchange-btn button {
+        height: 70px;
+    }
+    .input-form span {
+        height: 70px;
+        line-height: 70px;
+    }
+   
+}
+
+/* small mobile :320px. */
+
+@media (min-width: 240px) and (max-width: 479px) {
+    /* dashboard one */
+    /* sidebar */
+    .sidebar-menu {
+        position: fixed;
+        left: -90%;
+        top: 0;
+        height: 100vh;
+        width: 90%;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .sbar_collapsed .sidebar-menu {
+        width: 85%;
+        left: 0;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    .sbar_collapsed .nav-btn {
+        margin-right: 15px;
+        position: fixed;
+        z-index: 99;
+        right: 0;
+        top: 0;
+        background: #303641;
+        margin: 0;
+        padding: 14px;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #fffbfb;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+    .card-body {
+        padding: 1.25rem;
+    }
+}

@@ -1,0 +1,26 @@
+.checkform{
+    height: 50vh;
+ }
+
+ .checkform form{
+    margin-left: 35%;
+    margin-top: 20rem;
+    font-size: 2rem;
+ }
+
+ form .form-grp input{
+    background-color: rgb(181, 177, 177);
+    border: 1px solid;
+ }
+
+ form button{
+    background: blue;
+    color: white;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 3px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+ }
+
